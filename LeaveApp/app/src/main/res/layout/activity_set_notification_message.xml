@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.lalit.leaveapp.SetNotificationMessage"
+    android:id="@+id/check"
+    android:background="#ffd3f6ff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+
+        android:id="@+id/text"
+        android:textColor="#FF000000" />
+
+    <TextView android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:textColor="#FF000000"
+        android:layout_below="@+id/text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DepartMent"
+        android:id="@+id/textView"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FF000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView2"
+        android:textColor="#FF000000"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignLeft="@+id/leavecontent"
+        android:layout_alignStart="@+id/leavecontent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile-No."
+        android:id="@+id/textView3"
+        android:textColor="#FF000000"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:textColor="#FF000000" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btnfinal"
+        android:layout_marginTop="92dp"
+        android:layout_below="@+id/daycontent"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type Of Leave"
+        android:id="@+id/leaveheading"
+        android:textColor="#FF000000"
+        android:layout_alignBaseline="@+id/leavecontent"
+        android:layout_alignBottom="@+id/leavecontent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leavecontent"
+        android:text="test"
+        android:layout_marginTop="55dp"
+        android:textColor="#FF000000"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day/Days of Leave"
+        android:id="@+id/daytitle"
+        android:textColor="#FF000000"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/leaveheading"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="daycontent"
+        android:id="@+id/daycontent"
+        android:textColor="#FF000000"
+        android:layout_alignTop="@+id/daytitle"
+        android:layout_alignRight="@+id/btnfinal"
+        android:layout_alignEnd="@+id/btnfinal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Engage Faculty"
+        android:id="@+id/engagetit"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/engageval"
+        android:layout_alignTop="@+id/engagetit"
+        android:layout_alignLeft="@+id/daycontent"
+        android:layout_alignStart="@+id/daycontent"
+        android:textColor="#ff000000" />
+
+</RelativeLayout>
